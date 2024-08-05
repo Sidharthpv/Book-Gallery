@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-color: rgb(179, 138, 217);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+header button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+.banner{
+    background-image: url(https://img.lovepik.com/background/20211020/large/lovepik-books-in-the-sky-background-image_400062995.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+section{
+    background-color: rgb(240, 231, 231);
+    padding-top: 10px;
+}
+
+.row{
+    background-color:  rgb(240, 231, 231);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.col{
+    background-color: rgb(183, 253, 114);
+    width: 300px;
+    height: 450px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+img{
+    padding-top: 10px;
+    border-radius: 10%;
+}
+
+section span{
+    color: crimson;
+}
+
+img:hover{
+    box-shadow: 4px 6px rgb(114, 114, 255);
+}
+
+section button{
+    background-color: rgb(255, 254, 255);
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+section button:hover{
+    background-color: black;
+    color: red;
+}
+
+footer{
+    background-color: rgb(179, 138, 217);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    height: 150px;
+}
+footer h4{
+    color: whitesmoke;
+}
+
+@media screen and (max-width:400px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Franklin Gothic Medium',;
+    }   
+    header{
+        width: 400px;
+        background-color: darkred;
+        color: antiquewhite;
+        padding: 0px;
+    }
+
+    nav{
+        width: 400px;
+        background-color: crimson;
+        margin: 0px;
+        padding: 0px;
+    }
+    .row{
+        background-color: blanchedalmond;
+        width: 400px;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        width: 400px;
+        height: 2000px;
+    }
+    .col{
+        height: 600px;
+        width: 350px;
+        border: 3px solid black;
+        margin-left: 23px;
+    }
+    footer{
+        width: 400px;
+        background-color: rgb(179, 138, 217);
+        display: flex;
+        justify-content: space-around;
+    }
+}
